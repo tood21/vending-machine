@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("../font/Noto_Sans_KR/NotoSansKR-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("../font/Noto_Sans_KR/NotoSansKR-Bold.otf");
+  font-weight: 700;
+}
+
+/* util */
+.ir {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  line-height: 0;
+  font-size: 1px;
+  color: transparent;
+}
+
+/* base */
+body {
+  font-family: "Noto Sans KR";
+  background-color: #eae8fe;
+}
+
+/* layout */
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 247px;
+}
+/* style */
+
+#app .vending-machine,
+#app .user-info {
+  box-sizing: border-box;
+  width: 360px;
+  height: 545px;
+  background-color: #ffffff;
+}
+
+#app .app-title {
+  top: 0;
+  width: 100%;
+  max-width: 386px;
+  height: 180px;
+  background: no-repeat center / 100% 100% url(/img/Logo.png);
+}
+
+#app .vending-machine {
+  margin-right: 28px;
+  padding: 31px 27px 24px;
+}
