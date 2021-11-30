@@ -57,3 +57,48 @@ body {
   margin-right: 28px;
   padding: 31px 27px 24px;
 }
+
+#app .vending-machine .item-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#app .vending-machine .item-list li {
+  width: 30%;
+  margin-top: 12px;
+  border: 1px solid #bdbdbd;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.vending-machine .cont-return {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont-return .cont-return_info {
+  width: 65%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #eae8fe;
+  padding: 6px 10px;
+}
+
+.cont-return .cont-return_info .cont-return_text {
+  float: right;
+}
+
+.cont-return .cont-return_info .return_button {
+  width: 30%;
+  font-size: 13px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
